@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php language_attributes(); ?>">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo('charset') ;?>">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Home - Append Bootstrap Temlate</title>
